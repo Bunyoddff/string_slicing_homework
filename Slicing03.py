@@ -5,4 +5,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    s=s[1:-1]
+    return s
+print(main("positive"))

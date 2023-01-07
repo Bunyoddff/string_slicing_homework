@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    s=s[::2]
+    return s
+print(main("apple"))
